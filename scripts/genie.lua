@@ -372,6 +372,7 @@ exampleProject("21-deferred")
 exampleProject("22-windows")
 exampleProject("23-vectordisplay")
 exampleProject("24-nbody")
+exampleProject("xx-voxel-raymarch")
 
 -- C99 source doesn't compile under WinRT settings
 if not premake.vstudio.iswinrt() then
